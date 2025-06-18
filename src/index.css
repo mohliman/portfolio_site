@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+
+  .textAlignLast{
+    text-align-last: center;
+  }
+
+
+
+@media(width >= 40rem){
+  .textAlignLast{
+    text-align-last: unset;
+  }
+  .clamp-text {
+    width: 75%;
+  }
+}
