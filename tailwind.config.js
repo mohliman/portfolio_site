@@ -13,10 +13,8 @@ export default {
         "light-gray":"#d9d9d9"
       },
       backgroundImage: {
-        'pic-long': "url('./images/pic1.png')",
-        'pic-short': "url('./images/pic2.png')",
-        'pic-mobile': "url('./images/pic3.png')",
-        'pic-tablet': "url('./images/pic4.png')",
+        'pic-mobile': "url('./images/pic3-min.png')",
+        'pic-tablet': "url('./images/pic4-min.png')",
       },
       fontSize: {
         "xlg": ["88px", {
